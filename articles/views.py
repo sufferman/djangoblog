@@ -11,3 +11,6 @@ def articles_list(request):
     return render(request, 'articles/articleslist.html', args)
 
 
+def article_detail(request, slug)
+
+
