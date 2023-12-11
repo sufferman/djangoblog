@@ -6,7 +6,8 @@ class Article(models.Model):
     body = models.TextField()
     date = models.DateTimeField(auto_now_add = True)
     
-    #    in add thumbnail
+    #    in add thumbnail ax
+    image = models.ImageField(default='default.jpg', blank = True)
     # add in author
 
 
